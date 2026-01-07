@@ -1,5 +1,6 @@
 # Simple Queue
 
+![Version](https://img.shields.io/badge/version-0.0.2-blue)
 [![Go Reference](https://pkg.go.dev/badge/github.com/elfadl/simple-queue.svg)](https://pkg.go.dev/github.com/elfadl/simple-queue)
 [![Go Report Card](https://goreportcard.com/badge/github.com/elfadl/simple-queue)](https://goreportcard.com/report/github.com/elfadl/simple-queue)
 
