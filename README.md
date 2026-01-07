@@ -96,21 +96,6 @@ func main() {
 }
 ```
 
-## Deployment to pkg.go.dev
-
-To make this library available on `pkg.go.dev`, follow these steps:
-
-1. **Push to GitHub**: Ensure your code is pushed to `github.com/elfadl/simple-queue`.
-2. **Tag a Version**: Create a semantic version tag (e.g., `v1.0.0`).
-   ```bash
-   git tag v1.0.0
-   git push origin v1.0.0
-   ```
-3. **Fetch via Proxy**: Run the following command to trigger `pkg.go.dev` to index your library:
-   ```bash
-   GOPROXY=https://proxy.golang.org go list -m github.com/elfadl/simple-queue@v1.0.0
-   ```
-
 ## License
 
 MIT
